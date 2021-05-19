@@ -18,12 +18,12 @@ int main(void)
 	}
 	else
 	{
-		for(j = 1; j <= row; j++)
+		for(int j = 1; j <= row; j++)
 		{
 			printf("\n");
 			for(int k = 1; k <= row-j; k++)
 				printf(" ");
-			for(i = 1; i <= j; i++)
+			for(int i = 1; i <= j; i++)
 				printf("%c",'#');
 			
 		}
