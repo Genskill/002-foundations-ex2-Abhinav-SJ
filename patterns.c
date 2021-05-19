@@ -8,22 +8,22 @@ int main(void)
 
 	if(pat == 1)
 	{
-		while(row)
+		for(int j = row; j > 0; j--)
 		{
-			for(int i = row; i > 0; i--)
-				printf("%c",'#');
 			printf("\n");
-			row--;
+			for(int i = j; i > 0; i--)
+				printf("%c",'#');
+			j--;
 		}
 	}
 	else
 	{
-		for(int j = 1; j <= row; j++)
+		for(j = 1; j <= row; j++)
 		{
 			printf("\n");
 			for(int k = 1; k <= row-j; k++)
 				printf(" ");
-			for(int i = 1; i <= j; i++)
+			for(i = 1; i <= j; i++)
 				printf("%c",'#');
 			
 		}
