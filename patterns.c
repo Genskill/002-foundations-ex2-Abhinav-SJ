@@ -20,6 +20,8 @@ int main(void)
 	{
 		for(int j = 1; j <= row; j++)
 		{
+			for(int k = 1; k <= row-j; k++)
+				printf(" ");
 			for(int i = 1; i <= j; i++)
 				printf("%c",'#');
 			printf("\n");
