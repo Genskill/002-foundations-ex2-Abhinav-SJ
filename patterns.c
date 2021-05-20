@@ -4,15 +4,15 @@
 int main(void)
 {
 	int pat = get_int("Enter type of pattern (1 or 2)\n");
-	int row = get_int("Number of rows\n");
+	int row = get_int("Number of rows");
 
 	if(pat == 1)
 	{
 		for(int j = row; j > 0; j--)
 		{
+			printf("\n");
 			for(int i = j; i > 0; i--)
 				printf("#");
-			printf("\n");
 		}
 	}
 	else
