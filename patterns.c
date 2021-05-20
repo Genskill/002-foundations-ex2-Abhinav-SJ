@@ -3,8 +3,8 @@
 
 int main(void)
 {
-	int pat = get_int();
-	int row = get_int();
+	int pat = get_int("Enter type of pattern (1 or 2) ");
+	int row = get_int("\nEnter number of rows");
 
 	if(pat == 1)
 	{
