@@ -13,7 +13,7 @@ int main(void)
 				printf("#");
 			if(j != 1)
 			{
-				printf("\n")
+				printf("\n");
 			}
 		}
 	}
