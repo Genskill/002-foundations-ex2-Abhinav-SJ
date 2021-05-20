@@ -7,7 +7,7 @@ int main(void)
 	int row = get_int("Number of rows");
 	if(pat == 1)
 	{
-		for(j = row; j > 0; --j)
+		for(j = row; j >= 1; --j)
 		{
 			printf("\n");
 			for(i = j; i > 0; i--)
