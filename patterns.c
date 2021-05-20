@@ -2,14 +2,15 @@
 #include<cs50.h>
 int main(void)
 {
-	int i,j,k;
+	int i,j,k,count;
 	int pat = get_int("Enter type of pattern (1 or 2)\n");
 	int row = get_int("Number of rows");
 	if(pat == 1)
 	{
 		for(j = row; j > 0; j--)
 		{
-			printf("\n");
+			printf("\n
+			count++;
 			for(i = j; i > 0; i--)
 				printf("#");
 		}
@@ -25,5 +26,5 @@ int main(void)
 				printf("#");
 			
 		}
-	}
+	}printf("%d",count);
 }
