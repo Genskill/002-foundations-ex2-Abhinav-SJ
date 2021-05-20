@@ -13,7 +13,6 @@ int main(void)
 			printf("\n");
 			for(int i = j; i > 0; i--)
 				printf("#");
-			j--;
 		}
 	}
 	else
