@@ -11,10 +11,7 @@ int main(void)
 		{
 			for(i = j; i > 0; i--)
 				printf("#");
-			if(j != 1)
-			{
-				printf("\n");
-			}
+			printf("\n");
 		}
 	}
 	else
