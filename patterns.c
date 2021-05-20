@@ -10,7 +10,8 @@ int main(void)
 	{
 		for(int j = row; j > 0; j--)
 		{
-			printf("\n");
+			if(j!=1)
+				printf("\n");
 			for(int i = j; i > 0; i--)
 				printf("#");
 		}
