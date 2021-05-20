@@ -2,7 +2,7 @@
 #include<cs50.h>
 int main(void)
 {
-	int i,j,k,count;
+	int i,j,k,count=0;
 	int pat = get_int("Enter type of pattern (1 or 2)\n");
 	int row = get_int("Number of rows");
 	if(pat == 1)
