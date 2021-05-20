@@ -9,7 +9,7 @@ int main(void)
 	{
 		for(j = row; j > 0; j--)
 		{
-			printf("\n
+			printf("\n");
 			count++;
 			for(i = j; i > 0; i--)
 				printf("#");
@@ -26,5 +26,6 @@ int main(void)
 				printf("#");
 			
 		}
-	}printf("%d",count);
+	}
+	printf("%d",count);
 }
