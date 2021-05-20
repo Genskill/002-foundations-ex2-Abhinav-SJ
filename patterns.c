@@ -12,7 +12,7 @@ int main(void)
 		{
 			printf("\n");
 			for(int i = j; i > 0; i--)
-				printf("%c",'#');
+				printf("#");
 			j--;
 		}
 	}
@@ -24,7 +24,7 @@ int main(void)
 			for(int k = 1; k <= row-j; k++)
 				printf(" ");
 			for(int i = 1; i <= j; i++)
-				printf("%c",'#');
+				printf("#");
 			
 		}
 	}
